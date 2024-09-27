@@ -39,6 +39,52 @@ footer p {
 	margin: 0.25rem 0;
 }
 
+header {
+	position: relative;
+    padding: 0.1rem;
+    background-color: #ababab;
+    border-bottom: 2px solid #7010B0;
+    text-align: center;
+}
+
+#user-info {
+	position: flex;
+    top: 5rem; 
+    right: 20px;
+    text-align: right;
+	margin-bottom: 0px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#user-info h2 {
+    margin: 0 0 0 0; 
+	text-decoration: underline;
+}
+
+#user-info p#username {
+    margin: 0; 
+    font-weight: bold;
+}
+
+#user-info p#sign-out-or-admin {
+    margin: 0; 
+	font-style: none;
+}
+
+#user-info p#sign-out-or-admin a {
+    margin: 0; 
+	font-style: none;
+	color: #7010B0;
+	text-decoration: none;
+}
+
+#user-info p#sign-out-or-admin a:hover {
+    margin: 0; 
+	font-style: none;
+	text-decoration: underline;
+}
+
 .evaluation {
 	border : 2px solid black;
 	padding: 10px;
@@ -65,3 +111,4 @@ footer p {
     margin: 10px 0;
 	overflow-wrap: break-word;
 }
+
